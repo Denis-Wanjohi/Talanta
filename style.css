@@ -1,0 +1,90 @@
+.text-center {
+  text-align: center;
+}
+.card{
+
+  background-color: rgb(154, 133, 173);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.grid{
+    display: grid;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.grid-cols-3{
+    grid-gap: 10px;
+    grid: 50px/ auto auto auto;
+}
+.grid-cols-3>p{
+    padding: 20px;
+    background-color: rgb(224, 223, 223);
+    margin: 2px;
+    font-weight: bold;
+    width: 50px;
+}
+.button {
+  background-color: blue;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.grid-cols-3>p:hover{
+    cursor: pointer;
+    background-color: rgb(180, 179, 179);
+
+}
+.text-xl {
+  font-size: 50px;
+}
+.text-lg {
+  font-size: larger;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+.m-auto {
+  margin: auto;
+}
+.input {
+  display: block;
+  width: 100%;
+  border-radius: 0.375rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  font-size: 1rem;
+  outline: 0px;
+  line-height: 1.5rem;
+}
+.label{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.row:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top{
+  background-color: aquamarine;
+}
