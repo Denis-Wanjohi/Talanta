@@ -39,7 +39,7 @@ Launch the XAMPP control panel and start the **Apache** and **MySQL** modules.
 
 #### Configuration
 
-- update the `db.php` with your database configurations.
+- update the `/database/db.php` with your database configurations.
 
 ## Usage
 
